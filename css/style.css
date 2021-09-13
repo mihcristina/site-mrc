@@ -1,0 +1,57 @@
+.img-header {
+    width: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+}
+
+/*nav {
+    background-color: #ace4c4;
+}
+ul {
+    text-align: center;
+}
+ul li {
+    display: inline-block;
+    margin-right: 5%;
+
+}
+
+ul a {
+    text-decoration: none;
+    color: #008037;
+}*/
+
+section {
+    max-width: 100%;
+    margin: 0, auto;
+    column-count: 6;
+}
+
+@media (max-width:400px) {
+    section {
+        column-count: 2;
+    }
+}
+
+.img-corpo {
+    display: block;
+    max-width: 90%;
+}
+
+/*div {
+    background: white;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 6px rgba(2, 136, 136, 0.329);
+    overflow: hidden;
+    break-inside: avoid-column;
+}
+
+div p {
+    padding: 10px;
+    font-family: sans-serif;
+    color: teal;
+}*/
+
